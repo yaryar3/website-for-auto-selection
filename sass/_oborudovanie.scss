@@ -1,0 +1,13 @@
+.oborudovanie {
+    .example-shadow-1 {
+        background: #e6e3df;
+        text-align: center;
+        .example-shadow-1 span {
+         margin: 50px;
+            height: 100px;
+            width: 200px;
+        display: inline-block;
+            box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+        }
+    }
+}

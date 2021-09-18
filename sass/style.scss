@@ -1,0 +1,27 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: relative;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+@import "variables";
+@import "titles";
+@import "car";
+@import "cash";
+@import "kakrabotaem";
+@import "why";
+@import "headers";
+@import "buttons";
+@import "oborudovanie";
+@import "footer2";
+@import "fonts";
+@import "pageup";
+@import "modal";
+@import "accordeon";
+@import "accordeon2";
+@import "media";
+@import "animate";

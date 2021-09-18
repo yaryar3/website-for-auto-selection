@@ -1,0 +1,16 @@
+.closed {
+    display: none;
+}
+.closed
+    :hover {
+    display: block;
+}
+#mylist ul li:hover {
+    list-style-image: none;
+    font-weight: normal;
+}
+.openning {
+    list-style-image: url('../icons/201.png') center (center / cover) no-repeat;
+    font-weight: bold;
+    cursor: default;
+}

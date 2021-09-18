@@ -1,0 +1,28 @@
+.whywe {
+    padding: 30px 0 30px 0;
+   // display: none;
+}
+.whywe__block {
+    display: flex;
+    justify-content: space-between;
+    margin: 33px 0;
+    min-height: 335px;
+    margin: 0 auto;
+    .whywe__item {
+        width: 300px;
+        text-align: center;
+        margin: 0 10px 0 10px;
+        font-size: 14px;
+        .whywe__divider {
+            width: 40px ;
+            height: 3px;
+            background-color: #20201d;
+            margin: 0 auto; 
+        }
+        p {
+            margin-top: 20px;
+            color: $main-color;
+            text-align: center;
+        }
+    }
+}

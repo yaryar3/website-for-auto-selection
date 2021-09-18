@@ -1,0 +1,16 @@
+.kakrabotaem {
+    padding: 25px 0 25px 0;
+}
+.kakrabotaem__block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    .kakrabotaem__item{
+        width: 300px;
+        p {
+            margin-top: 10px;
+        }
+    }
+}

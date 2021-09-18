@@ -1,0 +1,74 @@
+.shapka {
+    height: 750px;
+    background: url('../img/103.jpg') center (center / cover) no-repeat;
+    box-shadow: 0 185px 185px -185px rgba(0, 0, 0, .8);
+    .header {
+        height: 120px;
+        .header__logo {
+            img {
+                width: 300px;
+                margin-top: 30px;
+            }
+        }
+        .header__phone {
+            p {
+                font-size: 18px; 
+                color: $main-color;
+                text-align: center;
+                margin-top: 20px;
+            }
+            a.header__phone_number {
+                color: $second-color;
+                text-decoration: none;
+                font-size: 22px;
+                line-height: 1;
+                margin-left: 55px;
+            }
+        }
+        .header__seti {
+            margin-top: 25px;
+            .header__seti_item {
+                margin-right: 15px;
+                text-decoration: none;
+            }
+        }
+    }
+    nav {
+        border: 4px solid $main-color; /* Параметры границы */
+        background: #fc3; /* Цвет фона */
+        height: 76px;
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            padding: 23px 70px;
+            list-style-type: none;
+            &__item {
+                border-right: 4px dotted $main-color;
+                padding-right: 42px;
+                &:last-child {
+                    border-right: none;
+                }    
+            }
+            &__link {
+                color: $main-color;
+                text-decoration: none;
+                &:hover {
+                    box-shadow: 3px 3px 10px 10px yellowgreen;
+                    border: none;
+                    background-color: yellowgreen;
+                    color: white;
+                }
+            }
+        }
+    }    
+    .subheader {
+        text-align: center;
+        img {
+            margin-top: 90px;
+        }
+    }
+}
+h1 {
+    background: yellowgreen;
+    border: 3px solid $main-color;
+}

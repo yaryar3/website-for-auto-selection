@@ -1,0 +1,64 @@
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    //opacity: через него не надо делать
+    background-color: rgba($color: #000000, $alpha: 0.56)
+}
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    width: 380px;
+    min-height: 400px;
+    background-color: #f2f2f2;
+    padding: 38px 40px 40px 40px;
+    &__close {
+        position: absolute;
+        top: 0;
+        right: -10%;
+        font-size: 45px;
+        line-height: 21px;
+        color: $second-color;
+        cursor: pointer;
+    }
+    &__subtitle {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__descr {
+        color: #0d0d0d;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 20px;
+    }
+    input {
+        margin-top: 20px;
+        width: 300px;
+        height: 50px;
+        border: 2px;
+        padding: 5px;
+        border-radius: 7px;
+    }
+    &_mini {
+        min-height: 140px;
+    }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
+
+    #consultation, #order, #thanks {
+        display: none;
+    }

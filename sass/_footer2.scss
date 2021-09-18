@@ -1,0 +1,71 @@
+footer {
+    position: relative;
+    box-shadow: 0 -185px 185px -185px rgba(0, 0, 0, .9); 
+    background: url('../img/end.jpg') center (center / cover) no-repeat;
+    height: 500px;
+    .cover {
+        background: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .consultation {
+        height: 400px;
+        margin-top: 50px;
+        background: url(../img/cons.jpg) center (center/cover) no-repeat; 
+        &__descr {
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 20px;
+        }
+        input {
+            margin-top: 20px;
+            width: 300px;
+            height: 50px;
+            border: 2px;
+            padding: 5px;
+            border-radius: 7px;
+        }
+        .error {
+            border: 1px solid red;
+        }
+        label.error {
+            color: white;
+            border: none;
+            text-align: center;
+            margin-bottom: 15px;
+            margin-left: 15px;
+        }
+    }
+    .footer__logo {
+        img {
+            width: 300px;
+            margin-top: 50px;
+        }
+    }
+    .footer__phone {
+        p {
+            font-size: 22px; 
+            color: $second-color;
+            margin-top: 50px;
+            text-align: center;
+        }
+        a.footer__phone_number {
+            color: $second-color;
+            text-decoration: none;
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+    .footer__seti {
+        margin-top: 70px;
+        text-align: center;
+        .footer__seti_item {
+            margin-right: 15px;
+            text-decoration: none;
+        }
+    }
+}
+

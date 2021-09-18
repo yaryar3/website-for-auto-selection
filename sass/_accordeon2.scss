@@ -1,0 +1,61 @@
+.accordion {
+    transform: translateZ(0);
+    background: $second-color;
+    border-bottom: 1px solid $main-color;
+    border-left: 1px solid $main-color;
+    border-right: 1px solid $main-color;
+}
+  
+.accordion>.accordion-toggle {
+    display: none;
+    position: absolute;
+    opacity: 0;
+}
+  
+.accordion>label {
+    display: block;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    border-top: 1px solid $main-color;
+    border-bottom: 1px solid $main-color;
+    background: $second-color;
+    color: rgb(199, 156, 156);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+.accordion>label:after {
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    width: 12px;
+    height: 12px;
+    border-left: 2px solid #555;
+    border-top: 2px solid #555;
+    transform: rotate(-135deg);
+    transition: 0.4s transform;
+}
+  
+.accordion>section {
+    overflow: hidden;
+    height: 0;
+    transition: all .4s;
+}
+  
+.accordion>.accordion-toggle:checked~label:after {
+    transform: rotate(45deg);
+    top: 16px;
+}
+  
+.accordion>.accordion-toggle:checked~section {
+    height: 50px;
+}
+  
+.accordion>section p {
+    margin: 15px 0;
+    padding: 0 20px;
+}

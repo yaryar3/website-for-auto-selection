@@ -1,0 +1,30 @@
+.button {
+    width: 300px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: #fc3;
+    border: none;
+    color: $main-color;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 230px auto 0 auto;
+    border: 5px solid $main-color;
+    border-radius: 55px;
+    cursor: pointer;
+    &:hover {
+        background: yellowgreen;
+        text-decoration: none;
+    }
+    &__paket {
+        margin: 100px 10px 50px 43px;
+        width: 172px;
+        height: 46px;
+        position: absolute;
+        bottom: 30px;
+    }
+    &__submit {
+        margin: 70px auto 0 auto;
+    }
+}
